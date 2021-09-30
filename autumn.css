@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans";
+  background: url(images/background.jpg) no-repeat;
+  background-size: 100%;
+}
+
+main {
+  width: 30%;
+  display: block;
+  margin: 5% auto;
+  padding: 20px 0 20px 70px;
+  border: 1px solid #b8b6b5;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 10px -1px rgba(0, 0, 0, 0.57);
+}
+
+h3 {
+  color: #f41412;
+}
+
+.input-container {
+  display: flex;
+  width: 490px;
+  margin-bottom: 30px;
+  border: 1px solid #b8b6b5;
+  height: 45px;
+}
+
+.icon {
+  padding: 15px 10px;
+  background: #f9f9f9;
+  color: #b8b6b5;
+  min-width: 50px;
+  text-align: center;
+  border-right: 1px solid #b8b6b5;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #f9f9f9;
+}
+
+.payment-method {
+  border: 1px solid #b8b6b5;
+  background-color: #f9f9f9;
+  display: inline-flex;
+  height: 50px;
+  width: 245px;
+  margin-bottom: 20px;
+  margin-right: -6px;
+}
+
+.payment-details > div a {
+  margin: auto;
+  text-decoration: none;
+  color: #b8b6b5;
+}
+
+.submit {
+  padding: 15px 100px;
+  letter-spacing: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f41412;
+  color: #ffffff;
+  display: block;
+  margin-left: 20%;
+}
+
+input:hover,
+.payment-method:hover {
+  opacity: 60%;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  cursor: pointer;
+  opacity: 100%;
+  color: #ffffff;
+  background: #c70000;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+}
